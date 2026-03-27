@@ -1,4 +1,4 @@
-
+#Validaciones previas de las tablas
 SELECT * FROM chocolate_sales.sales LIMIT 20;
 select order_id, COUNT(*) as total from chocolate_sales.sales group by order_id order by total desc;
 select * from chocolate_sales.sales where product_id = 'P0000';
